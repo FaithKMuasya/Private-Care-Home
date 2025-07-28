@@ -1,0 +1,106 @@
+.facilities-section {
+  padding: 4rem 1rem;
+  background-color: #fff;
+  text-align: center;
+}
+
+.facilities-section .sub-head {
+  margin-bottom: 20px;
+}
+
+.facilities-section .sub-heading {
+  margin-bottom: 20px;
+}
+
+.facilities-title {
+  font-size: 1.5rem;
+  margin-bottom: 3rem;
+  color: #222;
+}
+
+.facilities-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.facility-card {
+  border: 1.5px solid #eee;
+  border-radius: 12px;
+  padding: 2rem;
+  transition: box-shadow 0.3s ease;
+  background-color: #fff;
+}
+
+.facility-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.facility-icon {
+  width: 64px;
+  height: 64px;
+  background-color: #FFD633;
+  color: #000;
+  font-size: 2rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1rem auto;
+}
+
+  .service-icon {
+  background-color: #FFD633;
+  color: #000;
+}
+
+.facility-title {
+  font-size: 1.2rem;
+  color: #37332F;
+  margin-bottom: 0.5rem;
+}
+
+.services-title {
+    margin-top: 50px;
+}
+
+.facility-desc {
+  color: #555;
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+
+/* 🔽 Tablet: 2 columns */
+@media (max-width: 900px) {
+  .facilities-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* 🔽 Mobile: 1 column */
+@media (max-width: 600px) {
+  .facilities-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .facility-card {
+    padding: 1.5rem;
+  }
+
+  .facility-icon {
+    width: 56px;
+    height: 56px;
+    font-size: 1.5rem;
+  }
+
+
+  .facility-title {
+    font-size: 1.1rem;
+  }
+
+  .facility-desc {
+    font-size: 0.9rem;
+  }
+}

@@ -1,10 +1,27 @@
 import React from 'react'
+import ContactSection from './Components/contact'
+import Footer from './Components/footer'
+import FacilitiesSection from './Components/services'
+import AppSection from './Components/our-home'
+import Navbar from './Components/navbar'
+import Hero from './Components/hero'
+import About from './Components/about'
+
+
+
+import './App.css'
 
 function App() {
 
   return (
     <>
-<h1>Hello there!</h1>
+    <Navbar />
+    <Hero />
+    <About />
+    <AppSection />
+    <FacilitiesSection />
+    < ContactSection />
+    <Footer />
     </>
   )
 }

@@ -1,0 +1,176 @@
+
+.hero {
+  position: relative;
+  background-image: url('/Images/Heros.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 1rem;
+  color: white;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+}
+
+.hero > * {
+  position: relative;
+  z-index: 2;
+}
+
+.heroOverlay {
+  width: 100%;
+  height: 100%;
+  padding: 3rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.heroContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.heroLeft {
+  flex: 1 1 100%;
+  max-width: 100%;
+  text-align: left;
+}
+
+.heroTitle {
+  font-size: 2.8rem;
+  font-weight: bold;
+  color: #FFD700;
+  margin-bottom: 1rem;
+}
+
+.heroSubtitle {
+  font-size: 1.6rem;
+  font-style: italic;
+  color: #FFD700;
+  margin-bottom: 1.5rem;
+}
+
+.heroTextRow {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.heroParagraph {
+  flex: 1 1 60%;
+  max-width: 600px;
+}
+
+.heroText {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: white;
+}
+
+.heroRight {
+  flex: 1 1 35%;
+  max-width: 350px;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 2rem; 
+}
+
+.whyCard {
+  background-color: rgba(255, 255, 255, 0.92);
+  padding: 1.75rem;
+  border-radius: 16px;
+  color: #333;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
+  text-align: left;
+  width: 100%;
+  max-width: 350px;
+}
+
+.whyCard h2 {
+  font-size: 1.7rem;
+  margin-bottom: 1.25rem;
+  color: #222;
+  font-weight: bold;
+  border-left: 5px solid #FFD700;
+  padding-left: 0.75rem;
+}
+
+.whyList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.whyList li {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  color: #333;
+  font-weight: 500;
+  line-height: 1.6;
+}
+
+.whyIcon {
+  color: #FFD700;
+  font-size: 1.4rem;
+  min-width: 1.4rem;
+  text-align: center;
+}
+
+.whyList li span.whyIcon {
+  color: #FFD700;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+@media (max-width: 768px) {
+  .heroTextRow {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .heroParagraph, .heroRight {
+    max-width: 100%;
+    margin-left: 0;
+  }
+
+  .whyCard {
+    text-align: center;
+  }
+
+  .whyCard h2 {
+    border-left: none;
+    padding-left: 0;
+  }
+
+  .whyList li {
+    justify-content: center;
+  }
+}
+
+#home {
+  scroll-margin-top: 100px;
+}
