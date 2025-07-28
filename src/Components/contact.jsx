@@ -42,7 +42,7 @@ function ContactSection() {
             <span className="icon"><FaPhoneAlt /></span>
             <div>
               <p><strong>Phone</strong></p>
-              <p>214-612-7369</p>
+              <p>817-583-4801</p>
               <p className="note">Available 24/7 for emergencies</p>
             </div>
           </div>
@@ -51,11 +51,11 @@ function ContactSection() {
             <span className="icon"><MdEmail /></span>
             <div>
               <p><strong>Email</strong></p>
-              <p>Info@sephusenterprises.com</p>
+              <p>sunflowersunraysrch@gmail.com</p>
               <p className="note">We'll respond within 24 hours</p>
             </div>
           </div>
-
+{/* 
           <div className="contact-item">
             <span className="icon"><MdLocationOn /></span>
             <div>
@@ -63,7 +63,7 @@ function ContactSection() {
               <p>1900 Pacific Ave</p>
               <p className="note">Visit us for a personal tour</p>
             </div>
-          </div>
+          </div> */}
 
           <div className="contact-item">
             <span className="icon">< MdAccessTime/></span>

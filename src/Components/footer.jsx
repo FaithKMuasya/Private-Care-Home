@@ -38,12 +38,12 @@ const Footer = () => {
               </div>
               <div className="footer-contact-item">
                 <Mail className="icon-primary" />
-                <span>Info@sephusenterprises.com</span>
+                <span>sunflowersunraysrch@gmail.com</span>
               </div>
-              <div className="footer-contact-item">
+              {/* <div className="footer-contact-item">
                 <MapPin className="icon-primary" />
                 <span>1900 Pacific Ave</span>
-              </div>
+              </div> */}
             </div>
           </div>
 
