@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './navbar.css';
 import logo from '/Images/logo.png';
 
@@ -16,15 +16,26 @@ const scrollToSection = (id) => {
   }
 };
 
-let Navbar = () => {
+const Navbar = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const toggleMenu = () => setMenuOpen(!menuOpen);
+
   return (
     <nav className="navbar">
       <div className="logoWrapper">
         <img src={logo} alt="Sunflower Sunrays Logo" className="logo-img" />
-        <div className="logoMotto"><strong>Brightening lives one ray at a time</strong></div>
+        <div className="logoMotto">
+          <strong>Brightening lives one ray at a time</strong>
+        </div>
       </div>
 
-      <div className="navRightGroup">
+      {/* Hamburger */}
+      <button className="hamburger" onClick={toggleMenu}>
+        ☰
+      </button>
+
+      <div className={`navRightGroup ${menuOpen ? 'open' : ''}`}>
         <ul className="navbarLinks">
           <li><button onClick={() => scrollToSection('home')}>Home</button></li>
           <li><button onClick={() => scrollToSection('about')}>About Us</button></li>

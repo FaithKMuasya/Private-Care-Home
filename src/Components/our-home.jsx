@@ -6,8 +6,11 @@ import img2 from "../assets/img2.jpeg";
 import img3 from "../assets/img3.jpeg";
 import img4 from "../assets/img4.jpeg";
 import img5 from "../assets/img5.jpeg";
-import img6 from "../assets/img6.jpeg";
 import img7 from "../assets/img7.jpeg";
+import img8 from "../assets/img8.jpeg";
+import img9 from "../assets/img9.jpeg";
+
+
 
 
 
@@ -64,7 +67,7 @@ function AppSection() {
 
     },
     {
-      image: img6,
+      image: img9,
       title: "5.  A Homely Living Touch",
       text: <p>A broader view into our heartwarming living area — 
         where every detail, from the inviting seats to the greenery and thoughtful decor, speaks of warmth and home.
@@ -81,6 +84,20 @@ function AppSection() {
          From the quality finishes of the house to the well-grounded compound, every element speaks of care and class.
          </p>,
       buttonText: "🌿 Nature’s Touch",
+
+    },
+
+    {
+      image: img8,
+      title: "6. The Sleep Sanctuary",
+      text: <p>
+        Tucked within the heart of the home, this bedroom whispers calm and quiet elegance. 
+        Twin beds, perfectly spread with soft linen and cloud-like pillows, invite rest without saying a word. 
+        The gentle play of natural light across the sheets adds a lived-in warmth, while a shared nightstand cradles a lamp that glows like a hush.
+         Every detail — from the smooth corners of the duvet to the thoughtful simplicity of the layout — speaks of comfort, care, and a space made to exhale in.
+          It’s not just a bedroom — it’s a breath of peace.
+         </p>,
+      buttonText: "🛏️  Explore Comfort",
 
     },
   ];

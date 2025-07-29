@@ -34,7 +34,7 @@ const Footer = () => {
             <div className="footer-contact">
               <div className="footer-contact-item">
                 <Phone className="icon-primary" />
-                <span>214-612-7369</span>
+                <span>817-583-4801</span>
               </div>
               <div className="footer-contact-item">
                 <Mail className="icon-primary" />
