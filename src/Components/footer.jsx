@@ -68,7 +68,7 @@ const Footer = () => {
               <li><Home className="icon-primary" /><span>24/7 Personal Care</span></li>
               <li><Users className="icon-primary" /><span>Social Activities</span></li>
               <li><Shield className="icon-primary" /><span>Medical Coordination</span></li>
-              <li><Clock className="icon-primary" /><span>Visiting Hours: 9 AM - 6 PM</span></li>
+              {/* <li><Clock className="icon-primary" /><span>Visiting Hours: 9 AM - 6 PM</span></li> */}
               <li><Heart className="icon-primary" /><span>Family-Like Environment</span></li>
             </ul>
           </div>
