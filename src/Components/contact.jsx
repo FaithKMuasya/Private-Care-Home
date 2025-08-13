@@ -68,8 +68,8 @@ function ContactSection() {
           <div className="contact-item">
             <span className="icon">< MdAccessTime/></span>
             <div>
-              <p><strong>Visiting Hours</strong></p>
-              <p>Monday - Sunday: 9:00 AM - 6:00 PM</p>
+              {/* <p><strong>Visiting Hours</strong></p>
+              <p>Monday - Sunday: 9:00 AM - 6:00 PM</p> */}
               <p className="note">Tours available by appointment</p>
             </div>
           </div>

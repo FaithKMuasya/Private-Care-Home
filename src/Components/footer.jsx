@@ -76,7 +76,7 @@ const Footer = () => {
 
         {/* Bottom Section */}
         <div className="footer-bottom">
-          <p>© 2024 Private Care Home. All rights reserved.</p>
+          <p>© 2025 Private Care Home. All rights reserved.</p>
           <div className="footer-policy">
             <button onClick={() => scrollToSection("contact")}>Privacy Policy</button>
             <button onClick={() => scrollToSection("contact")}>Terms of Service</button>
